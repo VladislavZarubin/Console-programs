@@ -1,4 +1,4 @@
-# function announcment 
+# function declaration 
 def get_month(language, number):
     '''This function gets language and number of month and return month name'''
     ru =['январь', 'февраль', 'март', 'апрель','май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь']
