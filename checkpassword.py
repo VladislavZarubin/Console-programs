@@ -16,7 +16,10 @@ def is_password_good(password):
     return flag
 
 # data input
-txt = input()
+txt = input("Enter your password: \n")
 
 # call function
-print(is_password_good(txt))
+if is_password_good(txt) is True:
+    print("Your password is good!")
+else:
+    print("Your password is bad!")
