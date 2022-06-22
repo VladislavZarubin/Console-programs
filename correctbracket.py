@@ -1,5 +1,7 @@
 # function declaration
 def is_correct_bracket(text):
+    ''''This function checks the number of open 
+    and closed brackets in typed expression an expression'''
     flag = True
     counter = 0
     for c in text:
@@ -14,7 +16,7 @@ def is_correct_bracket(text):
     return flag
 
 # input data
-txt = input("Enter your expression:\n")
+txt = input("- - - Enter your expression: - - -\n")
 
 # call function
 if is_correct_bracket(txt) is True:
