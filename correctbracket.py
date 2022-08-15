@@ -6,9 +6,9 @@ def is_correct_bracket(text):
     counter = 0
     for c in text:
         if c == '(':
-            counter +=1
+            counter += 1
         elif c == ')':
-            counter -=1
+            counter -= 1
             if counter < 0:
                 break
     if counter != 0:
